@@ -1,0 +1,115 @@
+{
+  "app_name"   : "ODN Digitalisation",
+  "utilisateur" : "Identifiant",
+  "password"    : "Mot de passe",
+  "connecter": "Se connecter",
+  "validator_required": "* Champ obligatoire",
+  "home_title": "Accueil",
+  "menu": "Menu principal",
+  "label_menu": {
+    "scan_boitier": "Scanner boitier",
+    "passeport_produit": "Passeport produit",
+    "cartographie": "Cartographie",
+    "statistiques": "Statistiques",
+    "create_itinirary": "Tracer un itinéraire"
+  },
+  "passeport_produit": {
+    "btn_scan": "Scan QR Code",
+    "labels": {
+      "serialnumber": "SERIAL NUMBER",
+      "manufacturerid": "Manufacturer ID",
+      "model": "Model",
+      "distribution_cable_diam_max": "Distribution cable diam. max (mm)",
+      "distribution_input": "Distribution Input",
+      "distribution_output": "Distribution Output",
+      "customer_ports": "Customer ports",
+      "theorical_losses": "Theorical Losses (dB)",
+      "connectorization": "Connectorization",
+      "connectorization_body": "Connectorization body",
+      "production_date": "Production date",
+      "production_batch": "Production batch",
+      "origin": "Origin",
+      "material": "Material",
+      "warranty_date": "Warranty date",
+      "cable_diameter": "Distribution cable diam. max (mm)",
+      "port_x_libre": "Le port {portNumber} est libre."
+    },
+    "schema_global":"Schéma global",
+    "technical_desc":"Descriptif technique",
+    "client_info_title": "Informations client"
+  },
+  "stepper_scan_boitier": {
+    "titles":{
+      "scan_boitier": "Scanner le QR code du boîtier",
+      "gestion_ports": "Gestion des ports du boîtier",
+      "documentation_validation": "Documentation et validation"
+    },
+    "step1":{
+      "btn_scan": "Scan QR Code",
+      "btn_manual": "Saisie manuelle",
+      "scan_instruction": "Positionnez le QR code du boîtier devant la caméra",
+      "manual_input_title": "Saisie manuelle",
+      "manual_input_hint": "Entrez l'identifiant du boîtier",
+      "port_occupe": "Port occupé",
+      "port_libre": "Port libre",
+      "error_should_scan_qr_code": "Merci de scanner le Qr Code de votre boitier"
+    },
+    "step2": {
+      "btn_scan_codebare_cable": "Scan du câble",
+      "scan_instruction_codebare_cable": "Positionnez le code à barre du câble devant la caméra",
+      "no_ports_found": "Aucun port disponible",
+      "client_info_title": "Informations client",
+      "cable_associe":     "Câble associé",
+      "client_name":       "Nom du client",
+      "error_phone": "* Le numéro doit comporter au moins 10 chiffres",
+      "client_phone":      "Téléphone",
+      "get_gps":           "Obtenir la position du client",
+      "view_details": "Afficher les détails",
+      "gps_coordinates": "Coordonnées GPS",
+      "serial_number": "Numéro de série: {serialNum}"
+
+    },
+    "step3": {
+      "photos": "Photos :",
+      "commentaire": "Commentaire :",
+      "confirm_delete": "Supprimer la photo ?",
+      "delete_photo_confirmation": "Cette photo sera définitivement supprimée.",
+      "observation_hint": "Entrez une observation...",
+      "creation_done": "Votre requête a été créée avec succès."
+    },
+    "map": {
+      "chosir_position": "Choisir position",
+      "coors_gps": "Coordonnées GPS",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "cannot_get_position": "Impossible de récupérer la position",
+      "error_choose_position": "Merci de choisir la position du client !"
+    }
+  },
+  "create_itinirary": {
+    "scan_qr_cable": "Scanner le code QR du câble",
+    "scan_instruction": "Positionnez le QR code devant la caméra",
+    "add_point": "Ajouter un nouveau point"
+  },
+  "logout": "Déconnexion",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "confirm": "Valider",
+  "suivant": "Suivant",
+  "terminer": "Terminer",
+  "precedent": "Précédent",
+  "error": "Erreur",
+  "request_cancelled": "Requête annulée",
+  "request_timeout": "Délai d'attente dépassé",
+  "no_internet": "Pas de connexion Internet",
+  "unknown_error": "Erreur inconnue",
+  "error_400": "Requête incorrecte (400)",
+  "error_401": "Non autorisé (401)",
+  "error_404": "Ressource introuvable (404)",
+  "error_500": "Erreur serveur (500)",
+  "no_data_found": "Aucune donnée trouvée",
+  "erreur": "Erreur",
+  "success": "Succès",
+  "message": "Message",
+  "error_boitier_not_found": "Boitier non trouvé"
+}

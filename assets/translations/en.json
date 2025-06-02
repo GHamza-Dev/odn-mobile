@@ -1,0 +1,108 @@
+{
+  "app_name": "ODN Digitalization",
+  "utilisateur": "Username",
+  "password": "Password",
+  "connecter": "Log In",
+  "validator_required": "* Required field",
+  "home_title": "Home",
+  "menu": "Main menu",
+  "label_menu": {
+    "scan_boitier": "Scan box",
+    "passeport_produit": "Product passport",
+    "cartographie": "Mapping",
+    "statistiques": "Statistics"
+  },
+  "passeport_produit": {
+    "btn_scan": "Scan QR Code",
+    "labels": {
+      "serialnumber": "Serial Number",
+      "manufacturerid": "Manufacturer ID",
+      "model": "Model",
+      "distribution_cable_diam_max": "Distribution cable diam. max (mm)",
+      "distribution_input": "Distribution Input",
+      "distribution_output": "Distribution Output",
+      "customer_ports": "Customer ports",
+      "theorical_losses": "Theoretical Losses (dB)",
+      "connectorization": "Connectorization",
+      "connectorization_body": "Connectorization body",
+      "production_date": "Production date",
+      "production_batch": "Production batch",
+      "origin": "Origin",
+      "material": "Material",
+      "warranty_date": "Warranty date",
+      "cable_diameter": "Distribution cable diam. max (mm)",
+      "port_x_libre": "Port {portNumber} is available."
+    },
+    "schema_global": "Global layout",
+    "technical_desc": "Technical description",
+    "client_info_title": "Client information"
+  },
+  "stepper_scan_boitier": {
+    "titles": {
+      "scan_boitier": "Scan the box QR code",
+      "gestion_ports": "Box port management",
+      "documentation_validation": "Documentation and validation"
+    },
+    "step1": {
+      "btn_scan": "Scan QR Code",
+      "btn_manual": "Manual input",
+      "scan_instruction": "Position the box's QR code in front of the camera",
+      "manual_input_title": "Manual input",
+      "manual_input_hint": "Enter the box ID",
+      "port_occupe": "Port occupied",
+      "port_libre": "Port available",
+      "error_should_scan_qr_code": "Please scan the box's QR code"
+    },
+    "step2": {
+      "btn_scan_codebare_cable": "Scan cable barcode",
+      "scan_instruction_codebare_cable": "Position the cable's barcode in front of the camera",
+      "no_ports_found": "No available ports",
+      "client_info_title": "Client information",
+      "cable_associe": "Associated cable",
+      "client_name": "Client name",
+      "error_phone": "* The number must contain at least 10 digits",
+      "client_phone": "Phone",
+      "get_gps": "Get client location",
+      "view_details": "View details",
+      "gps_coordinates": "GPS coordinates",
+      "serial_number": "Serial number: {serialNum}"
+    },
+    "step3": {
+      "photos": "Photos:",
+      "commentaire": "Comment:",
+      "confirm_delete": "Delete photo?",
+      "delete_photo_confirmation": "This photo will be permanently deleted.",
+      "observation_hint": "Enter an observation...",
+      "creation_done": "Your request has been successfully created."
+    },
+    "map": {
+      "chosir_position": "Choose position",
+      "coors_gps": "GPS coordinates",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "cannot_get_position": "Unable to retrieve location",
+      "error_choose_position": "Please choose the client's position!"
+    }
+  },
+  "logout": "Logout",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "confirm": "Confirm",
+  "suivant": "Next",
+  "terminer": "Finish",
+  "precedent": "Back",
+  "error": "Error",
+  "request_cancelled": "Request cancelled",
+  "request_timeout": "Request timed out",
+  "no_internet": "No Internet connection",
+  "unknown_error": "Unknown error",
+  "error_400": "Bad request (400)",
+  "error_401": "Unauthorized (401)",
+  "error_404": "Resource not found (404)",
+  "error_500": "Server error (500)",
+  "no_data_found": "No data found",
+  "erreur": "Error",
+  "success": "Success",
+  "message": "Message",
+  "error_boitier_not_found": "Box not found"
+}
